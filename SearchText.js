@@ -1,12 +1,3 @@
-// Find the longitude and latitude of a location
-/*var geocoder = require('geocoder');
-// Geocoding
-geocoder.geocode("3001 B, Kings Court, Raleigh", function ( err, data ) {
-  console.log(data.results[0].geometry);
-});
-*/
-// includes API_KEY and FORMAT
-
 var auth = require('./Auth');
 
 var querystring = require('querystring');
